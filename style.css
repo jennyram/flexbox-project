@@ -1,0 +1,181 @@
+/*Universal Styles*/
+
+html {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+ text-align: center;
+ background-color: #173D61;
+ color: #ffffff;
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+ font-family: 'Square Peg', cursive;
+ font-size: 50px;
+}
+
+
+/*Navigation*/
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #9AC1E6;
+  color:#173D61;
+  font-style: bold;
+  margin-top:-35px;
+  padding: 1rem;
+  border: 1px solid #173D61;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/*Main content hero*/
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  background-image: url("MainContentBackground2.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-content h2 {
+  margin-bottom: -10px;
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+  color: #ffffff;
+
+}
+
+.main-content h3 {
+  color: #ffffff;
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*What to see this week*/
+
+.whats-on-heading {
+  text-align: center;
+  color: #173D61;
+  margin-bottom: 50px;
+
+}
+
+.whats-on-heading h2 {
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+  color: #173D61;
+  margin-bottom: -10px;
+
+}
+
+.whats-on-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width:auto;
+  justify-content: space-evenly;
+
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.image img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image span {
+  font-family: 'Square Peg', cursive;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+/*Meet the artists*/
+
+.artists-heading {
+  text-align: center;
+  color:  #ffffff;
+  background-color: #9AC1E6;
+  background-image: url("MainContentBackground2.jpg")
+}
+
+.artists-heading h2 {
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+  margin-bottom: -10px;
+  padding-top: -20px;
+}
+
+.artists-heading h3 {
+  padding-bottom: 5px;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 150px;
+}
+
+.artist img {
+  margin-bottom: 10px;
+}
+
+.artist span {
+  font-family: 'Square Peg', cursive;
+  font-size: 26px;
+
+}
+
+.artist-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width:auto;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+
+.footer {
+  text-align: center;
+  background-color: #3a536b;
+  color: #81b9ee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer h2 {
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+  margin-bottom: -10px;
+
+}
